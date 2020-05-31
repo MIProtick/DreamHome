@@ -1,0 +1,12 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+
+{% block branding %}
+<h1 id="head">
+    <img src="{% static 'img/logo.png' %}" alt="Dream Home Developments" height="40" width="60" class="brand_img"> Admin Control
+</h1>
+{% endblock %}
+
+{% block extrastyle %}
+<link rel="stylesheet" href="{% static 'css/admin.css' %}">
+{% endblock %}

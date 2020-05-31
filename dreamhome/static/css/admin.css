@@ -1,0 +1,48 @@
+#header {
+    background: #10284e;
+    color: #ffffff;
+}
+
+#branding h1 {
+    color: #ffffff;
+}
+
+a:link,
+a:visited {
+    color: #10284e;
+}
+
+
+/* Breadcrumbs */
+div.breadcrumbs {
+    background: #52dea1;
+    color: #4d4757;
+}
+
+div.breadcrumbs a {
+    color: #4d4757;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.module h2,
+.module caption,
+.inline-group h2 {
+    background: #52dea1;
+}
+
+/* Button to save listings & Realtors */
+.button,
+input[type=submit],
+input[type=button],
+.submit-row input,
+a.button {
+    background: #14315e;
+}
+
+.button.default,
+input[type=submit].default,
+.submit-row input.default {
+    background: #10284e;
+}
+
