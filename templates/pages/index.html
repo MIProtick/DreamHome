@@ -2,6 +2,8 @@
 
 {% load humanize %}
 
+{% block title %} Welcome {% endblock %}
+
 {% block content %}
 
 <!-- Showcase -->
@@ -70,6 +72,10 @@
 
 <!-- Listings -->
 <section id="listings" class="py-5">
+
+    <!-- Alert -->
+    {% include 'partials/_alert.html' %}
+
     <div class="container">
         <h3 class="text-center mb-3">Latest Listings</h3>
         <div class="row">
