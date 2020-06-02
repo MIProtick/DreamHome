@@ -11,6 +11,7 @@ db.sqlite3-journal
 # Custom
 *.txt
 /static
+/.vscode/
 
 ### Django.Python Stack ###
 # Byte-compiled / optimized / DLL files
@@ -37,22 +38,6 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# pyenv
-.python-version
-
-# mkdocs documentation
-/site
 
 ### venv ###
 pyvenv.cfg
