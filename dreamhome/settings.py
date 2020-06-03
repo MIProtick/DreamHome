@@ -83,9 +83,9 @@ WSGI_APPLICATION = 'dreamhome.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dreamhomedb',
+        'NAME': 'your_database_name',
         'USER': 'postgres',
-        'PASSWORD': 'protick',
+        'PASSWORD': 'your_password',
         'HOST': 'localhost'
     }
 }

@@ -9,7 +9,7 @@ db.sqlite3-journal
 /media
 
 # Custom
-*.txt
+temp.txt
 /static
 /.vscode/
 
@@ -38,6 +38,17 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
 
 ### venv ###
 pyvenv.cfg
