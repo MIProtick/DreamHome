@@ -1,4 +1,4 @@
-# Project Description
+﻿# Project Description
 This is a django web app template.
 
 &nbsp;
@@ -70,7 +70,7 @@ A django platform boilerplate for real state web applications. A common marketpl
     > $ python manage.py runserver
     > ```
 
-  <span style="color:#77708a">_Log in to the admin pannel and insert appropriate data for thi application and **Voalá**_ :tada::trophy:</span>
+  <span style="color:#77708a">_Log in to the admin pannel and insert appropriate data for this application and **Voalá**_ :tada::trophy:</span>
 
 
 ### Author: *MIProtick*
